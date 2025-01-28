@@ -1,4 +1,26 @@
 {
   "type": "PTE",
-  "templateUrl": "https://github.com/microsoft/AL-Go-PTE@main"
+  "templateUrl": "https://github.com/microsoft/AL-Go-PTE@main",
+  "VersioningStrategy": 3,
+  "useProjectDependencies": true,
+  "buildModes": [
+    "default",
+    "nextMajor"
+  ],
+  "conditionalSettings": [
+    {
+      "buildModes": [
+        "nextmajor"
+      ],
+      "settings": {
+        "preprocessorSymbols": [
+          "NEXTMAJOR"
+        ],
+        "artifact": "////nextmajor/{INSIDERSASTOKEN}",
+        "cacheImageName": "",
+        "versioningStrategy": 15
+      }
+    }
+  ],
+  "templateSha": "ba4fc723e4c024674baa6a53ef1777402cfbaab0"
 }
