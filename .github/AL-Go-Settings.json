@@ -11,38 +11,13 @@
   "conditionalSettings": [
     {
       "buildModes": [
-        "current"
+        "nextMajor"
       ],
       "settings": {
         "preprocessorSymbols": [
-          "CLEAN25",
-          "CLEAN24",
-          "CLEAN23"
+          "CLEAN26"
         ],
-        "artifact": "bcartifacts/sandbox/25.0/ch",
-        "cacheImageName": "",
-        "versioningStrategy": 15
-      },
-      "buildModes": [
-        "prev1"
-      ],
-      "settings": {
-        "preprocessorSymbols": [
-          "CLEAN24",
-          "CLEAN23"
-        ],
-        "artifact": "bcartifacts/sandbox/24.0/ch",
-        "cacheImageName": "",
-        "versioningStrategy": 15
-      },
-      "buildModes": [
-        "prev2"
-      ],
-      "settings": {
-        "preprocessorSymbols": [
-          "CLEAN23"
-        ],
-        "artifact": "bcartifacts/sandbox/23.0/ch",
+        "artifact": "bcinsider/sandbox/ch/NextMajor",
         "cacheImageName": "",
         "versioningStrategy": 15
       }
